@@ -1,0 +1,40 @@
+
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 14px;
+    }
+    .container {
+        width: calc(480px - 10%)
+        
+    }
+
+
+
+@media screen and (max-width:480px) {
+    html{
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+        
+    }
+    .row{
+        display: block;
+    }
+    .col{
+        padding-top: 2rem
+}
+    .lessons .col{
+        width: 100%;
+    }
+    .steps .col{
+        width: 100%;
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+    .why-us .col-right {
+        width: 100%;
+}
+
